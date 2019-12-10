@@ -2,40 +2,67 @@ body {
     /*    padding-top: 20px;*/
     background: #fbfbfb;
     margin: 0 ;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* items */
 
 .grid-parent {
+    text-align:center;
     display:grid;
     /*    color: white;*/
     font-size: 20px;
     /*    padding: 20px;*/
     /*    grid-template-rows: 1fr 1fr 1fr 1fr;*/
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 250px 5fr;
     /*    grid-gap: 100px;*/
     /*    max-width: 1000px;*/
 }
 
 .grid-parent .nav {
     background-color: rgb(0,0,0) ;
+    align-content: center;
+    padding-top; 50px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .grid-parent .page_body {
     padding: 20px;
-    height: 400px ;
+    height: 900px ;
 }
 
 .grid-parent footer {
-    background-color: red; 
+    background-color: black; 
     grid-column-start: 1 ;
     grid-column-end: 3 ;
+    height: 70px;
+    
 }
 
+.grid-parent footer > div{
+    display: inline-block;
+    padding: 20px;
+    padding-left: 20px;
+    
+}
+a{
+    color:white;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:dodgerblue;
+    
+}
+.foot{
+    
+}
 
 /* Just for debugging. */
 div,section,article,nav,h1,h2,h3,h4,h5, blockquote,footer {
-    border: 2px solid red ;
+/*    border: 2px solid red ;*/
 }
 
 
